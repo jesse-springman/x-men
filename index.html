@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X-Men</title>
+    <link rel="stylesheet" href="./src/CSS/style.css">
+    <link rel="stylesheet" href="./src/CSS/reset.css">
+    <link rel="stylesheet" href="./src/CSS/responsive.css">
+   
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Oxanium:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+   
+       
+
+</head>
+
+<body>
+    <header class="header">
+        <img  class="logo" src="./src/imagens/logo.svg" alt="Logo x-men">
+    </header>
+
+    <main class="container">
+        <section class="personagens">
+            <h1 class="titulo">Selecione um personagem</h1>
+            <ul class="lista-personagens">
+                <li class="personagem selecionado"   id="ciclope" data-name="Ciclope" data-description=">Scott Summers Mutante nível Beta X-Men de
+                    elite, com o poder de disparar rajadas ópticas de laser, por um acidente que aconteceu com ele
+                    quando criança, mas não consegue controlá-los">
+                    <img src="./src/imagens/card-ciclope.jpg" alt="personagem-ciclope">
+                </li>
+                <li class="personagem" id="jean-grey" data-name="Jean Grey" data-description="Jean Grey mutante nível ômega receptáculo da força Fenix, chegando em um nível de poder cósmico, como telecinese e telepatia"	  >
+                    <img src="./src/imagens/card-jean-grey.jpg" alt="personagem jean gray">
+                </li>
+
+                <li class="personagem" id="lince-negra" data-name="Lince Negra" data-description="Tem o poder ser intangível, atravessando matéria sólida, camposde energia e também anda no ar">
+
+                    <img src="./src/imagens/card-lince-negra.jpg" alt="personagem lince negra">
+                </li>
+                <li class="personagem" id="tempestade" data-name="Tempestade" data-description="Mutante de nível alfa,com o poder de controla a força da natureza, produzindo raios, chuvas, gelos, ventos, neblina entre outros efeitos">
+                    <img src="./src/imagens/card-tempestade.jpg" alt="personagem tempestade">
+                </li>
+
+                <li class="personagem" id="vampira" data-name="Vampira" data-description="Mutante de nível Beta com o poder de absorver as memórias das pessoas que tem contato fisíco, no caso dos mutantes ela absorver os poderes e memórias, mas só temporariamente">
+                    <img src="./src/imagens/card-vampira.jpg" alt="personagem vampira">
+                </li>
+
+                <li class="personagem" id="wolverine" data-name="Wolverine" data-description="Logan é um mutante nível Beta, com garras de adamantium, uma liga metálica indestrutível.Tem um fator de cura regenerativo que chega a quase ser imortal">
+                    <img src="./src/imagens/card-wolverine.jpg" alt="personagem wolverine">
+                </li>
+
+                <li class="personagem" id="noturno" data-name="Noturno" data-description="Mutante de nível Gama, com falha na mutação que concedeu-lhe uma aparência monstruosa, de pele azul e com cauda. Seu poder é de tele-transporte ">
+                    <img src="./src/imagens/card-noturno.jpg" alt="personagem noturno">
+                </li>
+
+                <li class="personagem" id="magneto" data-name="Magneto" data-description="Erik mais conhecido como Magneto é um mutante de nível ômega seu poder é de magnetocinese, ou seja, controlar objetos de metal e criar campos magnéticos  ">
+                    <img src="./src/imagens/card-magneto.jpg" alt="personagem magneto">
+                </li>
+            </ul>
+        </section>
+
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="./src/imagens/card-ciclope.png" alt="Personagem Selecioando">
+
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Ciclope</h2>
+                <p class="descricao-personagem" id="descricao-personagem">Scott Summers Mutante nível Beta X-Men de
+                    elite, com o poder de disparar rajadas ópticas de laser, por um acidente que aconteceu com ele
+                    quando criança, mas não consegue controlá-los</p>
+            </div>
+
+        </section>
+    </main>
+
+    <script src="./src/./js/index.js"></script>
+</body>
+
+</html>
+
